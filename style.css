@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background: linear-gradient(45deg, #ff5bf1, #5bafff);
+    box-shadow: 0 0 15px #ff5bf1;
+}
